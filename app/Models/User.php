@@ -21,6 +21,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'ref_id',
+        'kc_access_token',
+        'kc_refresh_token',
+        'kc_access_token_expiration',
+        'kc_refresh_token_expiration',
     ];
 
     /**
